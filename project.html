@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            font-size:10px;
+        }
+        header{
+            padding: 0 10px 0 10px;
+            display: flex;
+            height: 56px;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .leftsection{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height:56px
+        }
+        .leftsection img{
+            height:40px;
+        }
+        .midsection input{
+            height:35px;
+            width: 500px;
+        }
+        .midsection button{
+            height:35px;
+            width: 40px;
+        }
+        .rightsection a  {
+            margin-left:40px;
+            padding:10px;
+            border-radius: 50%; 
+            transition: background-color 0.3s ease;
+            color: black;
+            
+        }
+        .rightsection a i {
+            font-size: 15px;
+        }
+        .rightsection a:hover{
+            background-color: #e5e5e5;
+        }
+        input::placeholder {
+        font-size: 16px;
+        padding-left: 10px;
+        }
+        aside{
+            height: calc(100vh - 56px);
+            width:200px;
+            background-color:white;
+            overflow-y: auto ;
+        }
+        nav{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            margin-top: 15px;
+        }
+        nav a{
+            display:flex;
+            height: 30px;
+            width: 200px;
+            align-items: center;
+            text-decoration: none;
+            padding-bottom: 20px;
+            padding-left: 10px;
+            color: black;
+            
+        }
+        nav a span{
+            margin-left:10px;
+            font-size:1.6rem;
+            font-weight: 1000;
+        }
+        nav a:hover{
+            background-color: #e5e5e5;
+        }
+        hr{
+            height: 1px;
+            padding-left: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="leftsection">
+            <i class="fa-solid fa-bars"></i>
+            <img src="youtube-logo.png" alt="">
+        </div>
+        <div class="midsection">
+            <input type="text" placeholder="search....">
+            <button>            <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </div>
+        <div class="rightsection">
+            <a href="">            <i class="fa-regular fa-user"></i>
+            </a>
+            <a 
+            href="">            <i class="fa-regular fa-bell"></i>
+            </a>
+            <a href="">
+                <i class="fa-brands fa-youtube"></i>
+
+            </a>
+            <a href="">
+                <i class="fa-solid fa-microphone"></i>
+
+            </a>
+
+        </div>
+    </header>
+    <aside>
+        <nav>
+            <a href="" class="home">
+                <i class="fa-solid fa-house"></i>
+                <span>Home</span>
+            </a>
+            <a href="">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <span>Explore</span>
+            </a>
+            <a href="">
+                <i class="fa-solid fa-music"></i>
+                <span>Music</span>
+            </a>
+            <hr>
+            <a href="">
+<i class="fa-solid fa-download"></i>
+                <span>Downloads</span>
+            </a>
+            <a href="">
+<i class="fa-solid fa-star"></i>
+                <span>Favourities</span>
+            </a>
+            <a href="">
+                <i class="fa-solid fa-comment"></i>
+                <span>Comments</span>
+            </a>
+            <a href="">
+                <i class="fa-solid fa-cloud"></i>
+                <span>Cloud</span>
+            </a>
+            <a href="">
+                <i class="fa-solid fa-phone"></i>
+                <span>Help</span>
+            </a>
+            <a href="">
+                <i class="fa-solid fa-heart"></i>
+                <span>Likes</span>
+            </a>
+            <hr>
+
+            <a href="">
+                <i class="fa-solid fa-envelope"></i>
+                <span>Email</span>
+            </a>
+            <a href="">
+                <i class="fa-solid fa-user"></i>
+                <span>Information</span>
+            </a>
+            <a href="">
+                <i class="fa-solid fa-arrow-up-from-bracket"></i>
+                <span>Upload</span>
+            </a>
+            <a href="">
+                <i class="fa-solid fa-trash"></i>
+                <span>Trash</span>
+            </a>
+            <a href="">
+                <i class="fa-solid fa-gear"></i>
+                <span>Settings</span>
+            </a>
+        </nav>
+    </aside>
+</body>
+</html>
